@@ -8,9 +8,18 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "langchain>=1.4.2",
+    "langchain[mcp]>=1.4.2",
     "langchain-google-genai>=4.4.0",
     "python-dotenv>=1.2.3",
+    "rich>=15.0.0",
+    "httpx>=0.28.1",
+    "winrt-runtime>=3.2.1",
+    "winrt-windows-foundation>=3.2.1",
+    "winrt-windows-media-core>=3.2.1",
+    "winrt-windows-media-playback>=3.2.1",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "pystray>=0.19.5",
+    "pillow>=12.3.0",
 ]
 
 [project.scripts]
